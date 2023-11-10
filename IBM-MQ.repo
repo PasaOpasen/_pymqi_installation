@@ -1,0 +1,33 @@
+# @(#) MQMBID sn=p934-L231004.DE su=_D0rCUGK-Ee6-0-1cOGl6kg pn=install/unix/linux_2/IBM-MQ-repo.txt
+#####################################################
+# <copyright
+# notice="oco-source"
+# pids="5724-H72"
+# years="2014,2020"
+# crc="2987661320" >
+#
+# 5724-H72
+#
+# (C) Copyright IBM Corp. 2014, 2020
+#
+# The source code for the program is not published
+# or otherwise divested of its trade secrets,
+# irrespective of what has been deposited with the
+# U.S. Copyright Office.
+# </copyright>
+#####################################################
+# Sample repo file entry  to facilitate installing
+# using yum on rpm-based systems.
+# 
+# o Copy this file to /etc/yum.repos.d
+# o Edit the baseurl values to reference the location 
+#   that contains the unpacked rpm files. 
+# o Note that this does not support the installation 
+#   of RDQM 
+#####################################################
+[IBM-MQ-9.3.4-x86_64]
+name=IBM MQ 9.3.4 x86_64
+baseurl=file://REPODIRPLACEHOLDER
+enabled=1
+gpgcheck=0
+
